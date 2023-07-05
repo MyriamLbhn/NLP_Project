@@ -16,7 +16,11 @@ Le projet se découpe en 4 étapes :
 ## Arborescence des fichiers : 
 
 - *data/Emotion_final.csv* : contient le [dataset](https://www.kaggle.com/datasets/ishantjuyal/emotions-in-text) utilisé pour faire nos analyses et entrainer le modèle.
-- *analyse.ipynb* : contient le code et les étapes de l'analyse, y compris le pré-traitement des données, la création des modèles et l'évaluation des performances.
+
+- *partie_1.ipynb* : contient le code et les étapes de l'analyse, y compris le pré-traitement des données, la création des modèles et l'évaluation des performances.
+
+- *partie_2.ipynb* : contient la méthode pour créer un container à partir de l'image Docker offcielle d'Elasticsearch, puis la réalisation d'un mapping d'index de notes et l'import des données (utilisation de la librairie Faker) et enfin une partie où l'on requête la base de donnée pour conduire différentes analyses.
+
 - *requirements.txt* spécifie les dépendances nécessaires pour exécuter le code du projet.
 
 ## Requirements  
