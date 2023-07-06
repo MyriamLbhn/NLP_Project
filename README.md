@@ -27,11 +27,15 @@ Cette partie consiste a analyser le dataset. On explorera aussi les différentes
 
 ## Partie 2 : Elasticsearch
 
-- *partie_2.ipynb* : 
-    - méthode pour créer un container à partir de l'image Docker offcielle d'Elasticsearch
-    - réalisation d'un mapping d'index de notes et l'import des données en utilisant le fichier csv, les prédictions du modèle et la librairie Faker
-    - requête de la base de donnée
+- *partie_2_elasticsearch.ipynb* : 
+    - 2.1 : méthode pour créer un container à partir de l'image Docker offcielle d'Elasticsearch
+    - 2.2 : réalisation d'un mapping d'index de notes et l'import des données en utilisant le fichier csv, les prédictions du modèle et la librairie Faker
+    - 2.3 : requête de la base de donnée
 
+- *partie_2_suite.ipynb* :
+    - 2.4 : questions théoriques sur le sharding et les pipelines d'ingestion
+    - 2.5 : proposition d'alternative à la gestion des stopwords directement dans le mapping et à l'intégration du modèle de ML comme pipeline d'ingestion
+    - 2.6 : utilisation de Kibana pour se connecter à la bdd elasticsearch et effectuer des requêtes et visualisations 
 
 ## Partie 3 : Hugging Face
 
